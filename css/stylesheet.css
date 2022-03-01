@@ -12,7 +12,7 @@
   }
   
   /* header */
-  .header-background .header-text .button .intro .highlighter .quote {
+  .header-background a.totop .header-text .button .intro .highlighter .quote {
     display: none;
   }
   
@@ -94,7 +94,7 @@
     align-content: center;
     justify-content: space-evenly;
     height: 250px;
-    margin: 200% 0% 200% 5%;
+    margin: 430% 0% 200% 5%;
   }
   
   .section {
