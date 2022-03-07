@@ -29,8 +29,8 @@
   </head>
 
   <body class="bg-dark text-light">
-    <div class="layout">
-      <header class="container-fluid">
+      <div class="row-fluid">
+      <header class="col container-fluid">
         <div class="header-background"></div>
         <div class="header-text">
           <div
@@ -50,7 +50,7 @@
         </div>
       </header>
       <main>
-        <aside class="sidebar">
+        <aside class="sidebar col">
           <div
             class="container-fluid flex-column align-items-center text-center"
           >
@@ -71,8 +71,8 @@
               />
             </picture>
 
-            <h4>Web Developer</h4>
-            <h5>Cape Town, South Africa</h5>
+            <h4 class="d-none">Web Developer</h4>
+            <h5 class="d-none d-lg-block">Cape Town, South Africa</h5>
           </div>
           <nav class="navbar nav-not-mobile list-group">
             <a class="nav-item menu-item list-group-item" href="#about">
@@ -298,12 +298,12 @@
             </ul>
           </div>
         </section>
-        <a class="button totop float-end" href="#top"
+        <a class="button totop float-end d-none d-lg-block" href="#top"
           ><i class="fa fa-arrow-up"></i> BACK TO THE TOP</a
         >
       </main>
       <!-- Fixed positioned footer under the sidebar -->
-      <footer class="footer-mobile container-sm">
+      <footer class="footer-mobile container-sm row-fluid">
         <a class="linktext" href="#about">
           <i class="fa fa-user menu-icon"></i
         ></a>
@@ -320,7 +320,7 @@
           ><i class="fa fa-star menu-icon"></i
         ></a>
       </footer>
-      <footer class="footer-not-mobile container-md">
+      <footer class="footer-not-mobile container-md row-fluid">
         <a class="linktext" href="tel:+27717707498" target="_blank">
           <div class="contacts">
             <i class="fa fa-phone-square"> </i>
